@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Contenedorcontactos from './contenedorcontactos';
+import Estado from './estado';
 
 
 const Contacto = (props) => {
 
   return (
     <div>
-      <Contenedorcontactos 
+      <Estado 
         estado={props.estado}
       />
       <h5> Nombre: {props.nombre} </h5>

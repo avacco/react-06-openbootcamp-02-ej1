@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useState } from 'react';
 
-const Contenedorcontactos = (props) => {
+const Estado = (props) => {
   
   const [estado, setEstado] = useState(props.estado);
 
@@ -24,4 +24,4 @@ const Contenedorcontactos = (props) => {
 
 
 
-export default Contenedorcontactos;
+export default Estado;
