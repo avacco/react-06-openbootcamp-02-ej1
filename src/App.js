@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Contacto from './components/contacto';
 
 function App() {
   return (
@@ -9,14 +10,18 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Contacto
+          nombre={"Pedro"}
+          apellido={"Pérez"}
+          email={"123@correo.com"}
+          estado={false}
+        />
+        <Contacto
+          nombre={"Andrés"}
+          apellido={"Vargas"}
+          email={"correo@123.com"}
+          estado={true}  
+        />
       </header>
     </div>
   );
